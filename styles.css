@@ -75,7 +75,7 @@ header .profile-image:hover {
 }
 .tag {
   background-color: transparent;
-  color: rgba(248, 176, 42, 0.92);
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
