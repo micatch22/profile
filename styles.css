@@ -7,18 +7,19 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #dee6de;
+  letter-spacing: 1px;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #0499ff;
+  color: #F2A516;
 }
 a:hover {
-  color: #6633ff;
+  color: #D8C8A9;
 }
 
 /* Section Styles */
@@ -34,7 +35,7 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 400;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -49,18 +50,19 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #D8C8A9;
 }
 
 header {
   text-align: center;
-  background: url('mandeville_morning.jpg') no-repeat top center ;
+  background: #88A853;
+  /*background: url('mandeville_morning.jpg') no-repeat top center ;*/
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 header {
-  line-height: 1.5;
+  line-height: .5;
 }
 header .profile-image {
   margin-top: 50px;
@@ -76,14 +78,17 @@ header .profile-image:hover {
 .tag {
   background-color: transparent;
   color: white;
+  font-family: 'Open Sans', Arial, sans-sarif;
   padding: 10px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
+  margin: 5px auto;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .location {
   background-color: transparent;
-  color: yellow;
+  color: #F2CB57;
 }
 .card {
   margin: 30px;
@@ -215,4 +220,87 @@ h3 {
   border-radius: 10px;
   padding: 4px;
   margin-top: 50px;
+}
+
+.entry {
+  text-align: center;
+  min-height: 400px;
+  position: relative;
+}
+
+.entry.tall {
+  min-height: 450px;
+}
+
+.entry div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.entry div:before,
+.entry div:after {
+  display: block;
+  content: '';
+  position: absolute;
+}
+
+#crayon:before,
+#crayon:after {
+  content: " ";
+  display: table;
+}
+
+#crayon:after {
+  clear: both;
+}
+
+/*@media all and (min-width: 960px) {
+  .entry {
+    float: left;
+    width: 50%;
+  }
+  .entry.wide {
+    width: 100%;
+  }
+  .entry.threes {
+    width: 33.333%;
+  }
+}*/
+
+#crayon {
+  background: #f3c114;
+}
+#crayon div {
+  width: 250px;
+  height: 40px;
+  margin-left: -110px;
+  margin-top: -20px;
+  z-index: 1;
+  background: #237449;
+  background-image: radial-gradient(ellipse at top, rgba(0,0,0,0.6) 50px, transparent 54px), linear-gradient(to right, transparent 25px, rgba(0,0,0,0.6) 25px, rgba(0,0,0,0.6) 30px, transparent 30px, transparent 35px, rgba(0,0,0,0.6) 35px, rgba(0,0,0,0.6) 40px, transparent 40px, transparent 210px, rgba(0,0,0,0.6) 210px, rgba(0,0,0,0.6) 215px, transparent 215px, transparent 220px, rgba(0,0,0,0.6) 220px, rgba(0,0,0,0.6) 225px, transparent 225px), linear-gradient(to right, transparent 12px, rgba(41,237,133,0.6) 12px, rgba(41,237,133,0.6) 235px, transparent 235px), linear-gradient(to bottom, transparent 62%, rgba(0,0,0,0.3) 100%);
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+#crayon div:before {
+  height: 10px;
+  left: -48px;
+  top: 2px;
+  border-right: 48px solid #237449;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+}
+#crayon div:after {
+  width: 251px;
+  height: 23px;
+  content: 'green';
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.3);
+  text-align: right;
+  padding-right: 47px;
+  padding-top: 17px;
+  left: -48px;
+  background-image: linear-gradient(to right, transparent 46px, rgba(0,0,0,0.3) 48px, transparent 48px), linear-gradient(to bottom, rgba(255,255,255,0) 12px, rgba(255,255,255,0.2) 17px, rgba(255,255,255,0.2) 19px, rgba(255,255,255,0) 24px);
 }
