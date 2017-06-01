@@ -75,14 +75,14 @@ header .profile-image:hover {
 }
 .tag {
   background-color: transparent;
-  color: black;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 }
 .location {
-  background-color: #222;
+  background-color: transparent;
   color: yellow;
 }
 .card {
