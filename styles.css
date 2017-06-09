@@ -59,11 +59,11 @@ header {
   /*background: url('mandeville_morning.jpg') no-repeat top center ;*/
   background-size: cover;
   overflow: hidden;
-  padding-top: 40px;
+  padding-top: 20px;
 }
-header {
+/*header {
   line-height: .5;
-}
+}*/
 header .profile-image {
   margin-top: 50px;
   width: 150px;
