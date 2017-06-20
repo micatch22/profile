@@ -1,4 +1,4 @@
-/* Global Layout Set-up */
+/* Author: Michelle Pierce */
 * {
   box-sizing: border-box;
 }
@@ -56,7 +56,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: #428C6A;
+  /*background: #428C6A;*/
+  background: linear-gradient(white, #428C6A 1%, black 125%);
   /*background: url('mandeville_morning.jpg') no-repeat top center ;*/
   background-size: cover;
   overflow: hidden;
