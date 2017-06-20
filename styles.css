@@ -7,7 +7,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: sans-serif;
+  /*font-family: sans-serif;*/
+  font-family: Source Code Pro;
   color: #222;
   background: #dee6de;
   letter-spacing: 1px;
@@ -16,17 +17,17 @@ body {
 
 a {
   text-decoration: none;
-  color: #F2A516;
+  color: #F2A444;
 }
 a:hover {
-  color: #D8C8A9;
+  color: white;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #1D261B;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -50,12 +51,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: #D8C8A9;
+  color: white;
 }
 
 header {
   text-align: center;
-  background: #88A853;
+  background: #428C6A;
   /*background: url('mandeville_morning.jpg') no-repeat top center ;*/
   background-size: cover;
   overflow: hidden;
@@ -78,13 +79,13 @@ header .profile-image:hover {
 .tag {
   background-color: transparent;
   color: white;
-  font-family: 'Open Sans', Arial, sans-sarif;
+  /*font-family: 'Open Sans', Arial, sans-sarif;*/
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 5px auto;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .location {
   background-color: transparent;
@@ -96,11 +97,11 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border: 4px solid #ccc;
   border-radius: 6px;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #07C7F2;
 }
 
 ul.skills {
@@ -108,10 +109,14 @@ ul.skills {
   text-align: center;
 }
 
+.bio {
+  list-style-type: none;
+}
+
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: green;
+  background: #428C6A;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -210,7 +215,7 @@ a.social:hover {
 }
 
 h3 {
-  color: #24A627;
+  color: #;
   letter-spacing: 2px;
 }
 
