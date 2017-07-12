@@ -17,7 +17,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #A1BF34;
+  color: #075159;
 }
 a:hover {
   color: white;
@@ -27,7 +27,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: #1D261B;
+  background: #52CBD9;
   min-height: 30px;
   padding: 10px;
   position: fixed;
