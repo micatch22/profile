@@ -9,15 +9,15 @@ body {
   text-align: center;
   /*font-family: sans-serif;*/
   font-family: Source Code Pro;
-  color: #A1BF34;
-  background: #c5c8cf;
+  color: #FFFFFF;
+  background: #075159;
   letter-spacing: 1px;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #075159;
+  color: #11AACC;
 }
 a:hover {
   color: white;
@@ -51,7 +51,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white;
+  color: #FFFFFF;
 }
 
 header {
@@ -97,7 +97,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: linear-gradient(white, #075159 1%, black 125%);
+  background: linear-gradient(white, #A1C331 1%, black 125%);
   border: 4px solid #A1BF34;
   border-radius: 6px;
 }
