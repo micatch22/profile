@@ -10,7 +10,8 @@ body {
   /*font-family: sans-serif;*/
   font-family: Source Code Pro;
   color: #FFFFFF;
-  background: #075159;
+  /*background: #075159;*/
+  background: linear-gradient(white, #075159 1%, black 125%);
   letter-spacing: 1px;
 }
 /* Link Styles */
@@ -31,6 +32,8 @@ a:hover {
   padding: 5px;
   position: fixed;
   text-align: center;
+  background-color: #000000;
+  z-index: 10;
 }
 .nav {
   display: flex;
@@ -56,7 +59,7 @@ a:hover {
 header {
   text-align: center;
   /*background: #428C6A;*/
-  background: linear-gradient(white, #075159 1%, black 125%);
+  /*background: linear-gradient(white, #075159 1%, black 125%);*/
   /*background: url('mandeville_morning.jpg') no-repeat top center ;*/
   background-size: cover;
   overflow: hidden;
