@@ -11,7 +11,8 @@ body {
   font-family: Tauri;
   color: #FFFFFF;
   /*background: #075159;*/
-  background: linear-gradient(white, #075159 1%, black 125%);
+  /*background: linear-gradient(white, #075159 1%, black 125%);*/
+  background-image: url("treeSky.jpeg");
   letter-spacing: 1px;
 }
 /* Link Styles */
