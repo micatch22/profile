@@ -106,10 +106,10 @@ header .profile-image:hover {
   border-radius: 6px;
 }
 .background2 {
-  background: #11aacc;
+  background: rgba(79, 155, 114, 0.6);
 }
 .card:hover {
-  border-color: #06c9c0;
+  border-color: rgba(23, 41, 102, 0.3);
 }
 
 ul.skills {
