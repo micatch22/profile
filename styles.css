@@ -133,7 +133,8 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: rgb(17, 18, 100);
+  background: #5965277a;
+  ;
 }
 
 footer {
