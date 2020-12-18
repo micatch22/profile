@@ -97,6 +97,7 @@ header .profile-image:hover {
   color: #F2CB57;
 }
 .card {
+  float: left;
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
