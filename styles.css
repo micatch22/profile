@@ -11,8 +11,8 @@ body {
   font-family: Tauri;
   color: #FFFFFF;
   /*background: #075159;*/
-  /*background: linear-gradient(white, #075159 1%, black 125%);*/
-  background-image: url("treeSky.jpeg");
+  background: linear-gradient(white, #075159 1%, black 125%);
+  /*background-image: url("treeSky.jpeg");*/
   letter-spacing: 1px;
 }
 /* Link Styles */
@@ -59,7 +59,7 @@ a:hover {
 
 header {
   text-align: center;
-  background-color: rgba(45, 45, 45, 0.4);
+  /*background-color: rgba(45, 45, 45, 0.4);*/
   /*background: #428C6A;*/
   /*background: linear-gradient(white, #075159 1%, black 125%);*/
   /*background: url('mandeville_morning.jpg') no-repeat top center ;*/
@@ -281,7 +281,7 @@ a.social:hover {
 }*/
 
 #crayon {
-  background: #52CBD9;
+  /*background: #52CBD9;*/
 }
 #crayon div {
   width: 250px;
