@@ -1,8 +1,8 @@
 $(document).ready(function() {
-	var randomQuote;
-	var randomAuthor;
+	let randomQuote;
+	let randomAuthor;
 	function getQuote() {
-		var quotes = [
+		let quotes = [
 			"Wherever you go, no matter what the weather, always bring your own sunshine",
 			"The best thing one can do when it's raining is to let it rain",
 			"Nature is not a place to visit. It is home",
@@ -21,7 +21,7 @@ $(document).ready(function() {
 			"Chaos was the law of nature; Order was the dream of man"
 		];
 
-		var author = [
+		let author = [
 			"Anthony J. D'Angelo",
 			"Henry Wadsworth Longfellow",
 			"Gary Snyder",
@@ -40,7 +40,7 @@ $(document).ready(function() {
 			"Henry Adams",
 		];
 		// round number
-		var randomNumber = Math.floor(Math.random() * quotes.length);
+		let randomNumber = Math.floor(Math.random() * quotes.length);
 		randomQuote = quotes[randomNumber];
 		randomAuthor = author[randomNumber];
 

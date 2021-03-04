@@ -86,7 +86,11 @@
         
         <li><a href="https://github.com/micatch22" target="_blank" class="github">Github</a></li>
       </ul>
-      <p class="copyright"><?php echo date("F d, Y") ?></p>
+      <p id="date"></p>
+      <script>
+        let today = date.now();
+        document.getElementById("demo").innerHTML = `Today is ${today}`;
+      </script>
     </footer>
   </body>
   </html>
