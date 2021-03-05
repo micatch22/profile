@@ -21,42 +21,52 @@
 
     <div class="main-nav">
         <ul class="nav">
-          <li class="google-text">Michelle</li>
+          <li id="date"></li>
           <li><a href="#">Home</a></li>
           <li><a href="quote.html" target="_blank">Random Quote Generator</a></li>
           <li><a href="https://docs.google.com/document/d/1yji5zRobfJiM2E7V3Fx3G0-APg4bh7BwO40oPEXuRnk/edit?usp=sharing" target="_blank">Resume</a></li>
-          <li><a href="mailto:mjppppb@gmail.com?subject=ProfileView">Contact</a></li>
+          <!-- <li><a href="mailto:mjppppb@gmail.com?subject=ProfileView">Contact</a></li> -->
         </ul>
     </div>
 
     <header>
-      <img src="IMG_7700.jpg" alt="Picture of Michelle Pierce" class="profile-image">
+      <img src="IMG_7700.jpg" alt="Picture of Michelle" class="profile-image">
       <h1 class="tag name">Michelle Pierce</h1>
       <h1 class="tag name">Software Engineer</h1>
       <h2 class="google-text"><em>“I have stood on a mountain of no’s for one yes.” - B. Smith</em></h2>
       
     </header>
 <div>
-      <div >
-        <h3>Languages and Frameworks:</h3>
-        <ul class="skills">
-          <li>ASP.NET</li>
-          <li>Java</li>
-          <li>PHP</li>
-          <li>SQL</li>
+      <div class="card">
+        <h3 class="skills">Education:</h3>
+        
+          <p>Northwestern State University<br>
+         Bachelor of Science<br>
+            Computer Informaiton Systems<br>
+             Application Development Concentration<br>
+          </p>
+        </div>
+        <div class="card">
+        <h3>I am proficient in the following technologies:</h3>
+        <ul >
           <li>JavaScript</li>
           <li>C#</li>
-          <li>Python</li>
           <li>CSS</li>
           <li>HTML</li>
-          <li>React.JS</li>
-          <li>Node.JS</li>
+          <li>React</li>
           <li>Bootstrap</li>
+          <li>SQL</li>
         </ul>
       </div>
-      <div>
-        <h3>Tools:</h3>
-        <ul class="skills">
+      <div class="card">
+        <h3>I have also used:</h3>
+        <ul>
+          <li>PHP</li>
+          <li>Java</li>
+          <li>ASP.NET</li>
+        </ul>
+        <h3>Development Tools:</h3>
+        <ul>
           <li>Visual Studio</li>
           <li>Git</li>
           <li>Azure</li>
@@ -88,10 +98,13 @@
       </ul>
       <p id="date"></p>
       
+      
     </footer>
     <script>
-      let today = date.now();
-      document.getElementById("date").innerHTML = `Today is ${today}`;
+      
+      let [month, date, year] = new Date().toLocaleDateString("en-US").split("/")
+      
+      document.getElementById("date").innerHTML = `Today's Date: ${month}/${date}/${year}`;
     </script>
   </body>
   </html>
