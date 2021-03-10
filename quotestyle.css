@@ -33,17 +33,17 @@ body {
  margin: 0 auto;
 }
 
-.quote {
+#quote {
  font-size: 2.1em;
  padding-bottom: 5px;
  background-color: rgba(45, 45, 45, 0.1);
 }
 
-.quote:after {
+#quote:after {
  content: ".";
 }
 
-.author {
+#author {
 	display: hide;
  font-size: 1.1em;
  font-style: italic;

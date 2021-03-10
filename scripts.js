@@ -1,4 +1,4 @@
-$(document).ready(function() {
+
 	let randomQuote;
 	let randomAuthor;
 	function getQuote() {
@@ -43,25 +43,14 @@ $(document).ready(function() {
 		let randomNumber = Math.floor(Math.random() * quotes.length);
 		randomQuote = quotes[randomNumber];
 		randomAuthor = author[randomNumber];
-
-		$(".quote").text(randomQuote);
-		$(".author").text(randomAuthor);
+		console.log(randomQuote);
+		quote = document.querySelector("#quote");
+		author = document.querySelector("#author");
+		quote.innerHTML = `${randomQuote}`;
+ 		author.innerHTML = `${randomAuthor}`;
+		
 	}
 	
-	$(".generate").on("click", function() {
-		getQuote();
-		$(".author").show();
-		$(".tweetthis").show();
-	});
+
+
 	
-	$(".tweetthis").on("click", function() {
-		
-		window.open(
-				"https://twitter.com/intent/tweet?text=" +
-					randomQuote +
-					" - " +
-					randomAuthor
-			);	
-	});
-	
-});
