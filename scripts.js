@@ -18,7 +18,8 @@
 			"The trees that are slow to grow bear the best fruit",
 			"Nature is a mutable cloud which is always and never the same",
 			"There are no lines in nature, only areas of colour, one against another",
-			"Chaos was the law of nature; Order was the dream of man"
+			"Chaos was the law of nature; Order was the dream of man",
+			"At the end of the day, we can endure much more than we think we can"
 		];
 
 		let author = [
@@ -38,6 +39,7 @@
 			"Ralph Waldo Emerson",
 			"Edouard Manet",
 			"Henry Adams",
+			"Frida Kahlo"
 		];
 		// round number
 		let randomNumber = Math.floor(Math.random() * quotes.length);
